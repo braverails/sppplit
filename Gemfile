@@ -43,3 +43,16 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+#gem 'aws-sdk'
+gem 'refile', require: ['refile/rails'], git: 'https://github.com/refile/refile.git'
+gem 'refile-mini_magick'
+#gem 'refile-s3'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
+end
