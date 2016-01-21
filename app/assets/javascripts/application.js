@@ -13,4 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery.twentytwenty
 //= require_tree .
+
+$(function() {
+  $('.twentytwenty-container').twentytwenty({
+    defaultOffsetPct: 0.5, // How much of the before image is visible when the page loads
+    orientation: 'horizontal' // Orientation of the before and after images ('horizontal' or 'vertical')
+  });
+});
